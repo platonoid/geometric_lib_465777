@@ -1,3 +1,4 @@
+  GNU nano 7.2                     docs/README.md
 # Math formulas
 ## Area
 - Circle: S = πR²
@@ -8,3 +9,7 @@
 - Circle: P = 2πR
 - Rectangle: P = 2a + 2b
 - Square: P = 4a
+
+# Some change for Lesson 6 practice
+
+
