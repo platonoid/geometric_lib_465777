@@ -1,4 +1,5 @@
-# Math formulas
+# Oleksandr Bohatyrov Harjutus 5
+## Math formulas
 ## Area
 - Circle: S = πR²
 - Rectangle: S = ab
