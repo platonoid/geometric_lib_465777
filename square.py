@@ -1,7 +1,6 @@
 
-def area(a):
-    return a * a
-
-
-def perimeter(a):
-    return 4 * a
+# Круг и квадрат
+figs = ['circle', 'square']
+# Периметр и площадь
+funcs = ['perimeter', 'area']
+sizes = {}
