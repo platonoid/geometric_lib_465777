@@ -1,10 +1,10 @@
 import math
 
+# Найдем площадь
+def area(a, b, c):
+    return (a + b + c) / 2
 
-def area(r):
-    return math.pi * r * r
-
-
-def perimeter(r):
-    return 2 * math.pi * r
+# Найдем периметр
+def perimeter(a, b, c):
+    return a + b + c
 
