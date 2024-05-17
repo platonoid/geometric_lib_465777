@@ -8,6 +8,7 @@
 - Circle: P = 2πR
 - Rectangle: P = 2a + 2b
 - Square: P = 4a 
+
 ![3](https://github.com/fraqej/geometric_lib/assets/170093876/e6689244-1523-4e90-aa94-9c80864b2920)
 
 ![2](https://github.com/fraqej/geometric_lib/assets/170093876/1a9ec421-692a-4d3c-a0f4-b9b41fb54085)
