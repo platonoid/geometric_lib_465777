@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6dh-JX-z0e">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4S8-wH-iZr">
+            <objects>
+                <viewController id="mln-pn-wcS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B1I-M7-iWb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="3eP-Iz-tiI"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Group (8)" id="0Iy-WU-8af"/>
+                    <navigationItem key="navigationItem" id="QIS-L9-FiG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5sr-3h-0Fp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-293" y="1605"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="uAQ-OZ-Qae">
+            <objects>
+                <viewController id="6dh-JX-z0e" customClass="ViewController0" customModule="med_p" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nah-xu-eWG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AbG-fl-tvc">
+                                <rect key="frame" x="60" y="243" width="300" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Group (2)"/>
+                                <connections>
+                                    <action selector="brec:" destination="6dh-JX-z0e" eventType="touchUpInside" id="4zd-Lt-vrK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yb7-IO-arW">
+                                <rect key="frame" x="230" y="461" width="130" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Group (4)"/>
+                                <connections>
+                                    <action selector="plast:" destination="6dh-JX-z0e" eventType="touchUpInside" id="NQq-f6-gky"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qN-Hc-sFI">
+                                <rect key="frame" x="60" y="616" width="130" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Group (5)"/>
+                                <connections>
+                                    <action selector="treiner:" destination="6dh-JX-z0e" eventType="touchUpInside" id="kmw-ib-lMQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQ4-jI-oN6">
+                                <rect key="frame" x="60" y="460" width="130" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Group (3)"/>
+                                <connections>
+                                    <action selector="elayner:" destination="6dh-JX-z0e" eventType="touchUpInside" id="hsI-ng-fkG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYO-Um-4f6">
+                                <rect key="frame" x="74" y="771" width="288" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorTelugu-Light" family="Kohinoor Telugu" pointSize="22"/>
+                                <state key="normal" title="Продолжить" backgroundImage="Rectangle">
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BCH-x9-cYI" kind="show" id="XSO-sy-wNE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Съёмные" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQb-8Q-Z4p">
+                                <rect key="frame" x="60" y="398" width="110" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Light" family="Kohinoor Bangla" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qcp-6G-QQC">
+                                <rect key="frame" x="60" y="83" width="300" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="Color-1"/>
+                                <string key="text">Выберете вид  
+ортодонтической конструкции</string>
+                                <color key="textColor" name="Color"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" name="Color-1"/>
+                        <viewLayoutGuide key="safeArea" id="ksO-ib-wXN"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Bb8-Lv-LXF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qPF-Bq-Qde" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1153.6231884057972" y="2270.7589285714284"/>
+        </scene>
+        <!--View Controller4-->
+        <scene sceneID="u3v-Rf-n3y">
+            <objects>
+                <viewController id="tXR-6q-Coi" customClass="ViewController4" customModule="med_p" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l82-eb-hRS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lWv-E8-8kl">
+                                <rect key="frame" x="0.0" y="332" width="414" height="427"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Md0-hr-fER">
+                                        <rect key="frame" x="43" y="252" width="328" height="175"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" name="Color-1"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" name="Color"/>
+                                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Когда проводить процедуры?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grN-zW-UEb">
+                                        <rect key="frame" x="43" y="1" width="328" height="79"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" name="Color-1"/>
+                                        <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="23"/>
+                                        <color key="textColor" name="Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Lorem ipsum dolor sit er elit lamet, consectetaur " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Ux-gD-Ioj">
+                                        <rect key="frame" x="43" y="73" width="328" height="111"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" name="Color-1"/>
+                                        <color key="textColor" name="Color"/>
+                                        <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Правила ухода" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kT-me-pT1">
+                                        <rect key="frame" x="43" y="202" width="328" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" name="Color-1"/>
+                                        <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="22"/>
+                                        <color key="textColor" name="Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="Color-1"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="sgu-zu-dxz"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="xA6-v9-BLv"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mzY-68-vvL">
+                                <rect key="frame" x="62" y="41" width="286" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="30"/>
+                                <color key="textColor" name="Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOo-Zs-ETh">
+                                <rect key="frame" x="65" y="124" width="284" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="3"/>
+                                <connections>
+                                    <action selector="videobut:" destination="tXR-6q-Coi" eventType="touchUpInside" id="OBQ-ec-6b6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="Color-1"/>
+                        <viewLayoutGuide key="safeArea" id="DNT-Df-Snh"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Union (1)" id="hiF-21-bXv">
+                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="mT3-Od-6W2"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="imagebut" destination="WOo-Zs-ETh" id="GrI-mT-4QC"/>
+                        <outlet property="name" destination="mzY-68-vvL" id="Oa6-IM-gnW"/>
+                        <outlet property="recomendation" destination="Md0-hr-fER" id="plu-9F-VdU"/>
+                        <outlet property="time" destination="1Ux-gD-Ioj" id="vva-jQ-vmf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yc0-aV-OUx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-310.14492753623193" y="2273.4375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OEN-e5-8ph">
+            <objects>
+                <viewController id="tzA-yq-bQC" customClass="ViewController" customModule="med_p" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jFS-oy-HAx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fgo-e7-YQs"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Group (6)" id="SqU-UI-ivT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Bg-N5-AIO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-289" y="295"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="Nnx-CU-wd3">
+            <objects>
+                <tableViewController id="Qh0-tU-Mj6" customClass="TaskListViewController" customModule="med_p" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="P6j-6N-hYZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="117" id="M4o-jU-nj0">
+                                <rect key="frame" x="0.0" y="28" width="414" height="117"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="M4o-jU-nj0" id="1Tf-VL-X5G">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="117"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Qh0-tU-Mj6" id="9eh-i3-Rbt"/>
+                            <outlet property="delegate" destination="Qh0-tU-Mj6" id="eYI-P8-fEN"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="IyE-nj-EI3"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="do4-te-mQm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="611.59420289855075" y="940.84821428571422"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hiK-Ez-3BJ">
+            <objects>
+                <viewController id="Cbk-lc-1Lo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mcs-Hu-Itd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create task" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZ4-Ru-qHo">
+                                <rect key="frame" x="58" y="120" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TeZ-Fd-3gD">
+                                <rect key="frame" x="58" y="202" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="kfp-Gg-fSl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LhV-Ea-lzn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1414.4927536231885" y="940.84821428571422"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="94D-6y-CXi">
+            <objects>
+                <navigationController id="tfk-Uz-jOG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="Group (7)" springLoaded="YES" id="38M-ph-P9L"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Kgl-Rm-2d4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Qh0-tU-Mj6" kind="relationship" relationship="rootViewController" id="afz-GJ-2uW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tIn-9p-sue" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-307" y="941"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="OnJ-Pf-DUa">
+            <objects>
+                <tabBarController id="BCH-x9-cYI" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="zIm-DG-p6B"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QNg-Wz-Q6D">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="Color"/>
+                        <color key="tintColor" name="Color-2"/>
+                        <color key="barTintColor" name="Color-2"/>
+                        <color key="selectedImageTintColor" name="Color"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="tzA-yq-bQC" kind="relationship" relationship="viewControllers" id="vsN-eW-b97"/>
+                        <segue destination="tfk-Uz-jOG" kind="relationship" relationship="viewControllers" id="680-BE-iET"/>
+                        <segue destination="mln-pn-wcS" kind="relationship" relationship="viewControllers" id="onm-FP-vyx"/>
+                        <segue destination="tXR-6q-Coi" kind="relationship" relationship="viewControllers" id="Zhk-d5-Z6h"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VeQ-NL-qLo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1207" y="619"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="3" width="284" height="159"/>
+        <image name="Group (2)" width="300" height="130"/>
+        <image name="Group (3)" width="130" height="130"/>
+        <image name="Group (4)" width="134" height="130"/>
+        <image name="Group (5)" width="130" height="130"/>
+        <image name="Group (6)" width="45" height="45"/>
+        <image name="Group (7)" width="45" height="45"/>
+        <image name="Group (8)" width="45" height="45"/>
+        <image name="Rectangle" width="245" height="60"/>
+        <image name="Union (1)" width="45" height="45"/>
+        <namedColor name="Color">
+            <color red="0.070000000298023224" green="0.18000000715255737" blue="0.31000000238418579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Color-1">
+            <color red="0.98000001907348633" green="0.97000002861022949" blue="0.97000002861022949" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Color-2">
+            <color red="0.85999999999999999" green="0.89000000000000001" blue="0.93999999999999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+    <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+</document>
