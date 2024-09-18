@@ -139,3 +139,17 @@ Height drawn to first side: 4.9607837082461075
 Area: 9.921567416492215
 Perimeter: 15
 ```
+
+# Project modification history with commit hashes (except the last commit about this documentary)
+```
+86edb1c (origin/release) L-05: Update Docs. Add user agreement info
+438b89a L-05: Add user agreement
+6adb962 L-03: Docs added
+3049431 (origin/feature) L-04: Add rectangle.py
+b5b0fae (origin/develop) L-04: Update docs for calculate.py
+d76db2a L-04: Add calculate.py
+51c40eb L-04: Doc updated for triangle
+d080c78 L-04: Triangle added
+d078c8d (origin/main, origin/HEAD, main) L-03: Docs added
+8ba9aeb L-03: Circle and square added
+```
