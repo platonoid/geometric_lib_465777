@@ -44,7 +44,7 @@ def perimeter(r):
 '''
 ```
 ***Launch example:***
-```ruby
+```
 Radius of the circle: 4
 Area: 50.26548245743669 
 Perimeter: 25.132741228718345
@@ -72,7 +72,7 @@ def perimeter(a, b):
 '''
 ```
 ***Launch example:***
-```ruby
+```
 First side of the rectangle: 4
 Second side of the rectangle: 9
 Area: 36
@@ -100,7 +100,7 @@ def perimeter(a):
 '''
 ```
 ***Launch example:***
-```ruby
+```
 Side of the square: 7
 Area: 49
 Perimeter: 28
@@ -131,7 +131,7 @@ def perimeter(a, b, c):
 > *In fact, it is not necessary to know the **height** of the triangle, three of its sides will be enough to calculate the area (according to **[Heron's formula](https://en.wikipedia.org/wiki/Heron%27s_formula)**)*
 
 ***Launch example:***
-```ruby
+```
 First side of the triangle: 4
 Second side of the triangle: 5
 Third side of the triangle: 6
