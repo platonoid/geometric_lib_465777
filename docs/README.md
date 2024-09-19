@@ -142,6 +142,8 @@ Perimeter: 15
 
 # Project modification history with commit hashes (except the last commit about this documentary)
 ```
+1b60bf6 Create triangle.py and fix rectangle's perimeter
+72c6001 Create rectangle.py
 86edb1c (origin/release) L-05: Update Docs. Add user agreement info
 438b89a L-05: Add user agreement
 6adb962 L-03: Docs added
