@@ -1,3 +1,4 @@
+﻿It's an educational fork
 # Math formulas
 ## Area
 - Circle: S = πR²
