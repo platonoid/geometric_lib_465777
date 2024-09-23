@@ -32,6 +32,26 @@ perimeter = circle.perimeter(r)
 print(perimeter)  # Вывод: 6.28
 ```
 
+## Square
+- ### area(a) - Функция принимает параметр a - длина стороны квадрата. Возвращает значение площади квадрата, вычисленной по формуле S = a * a.
+Пример вызова:
+```
+import square
+
+a = 1
+area = square.area(a)
+print(area)  # Вывод: 1
+```
+- ### perimeter(a) - Функция принимает параметр a - длина стороны квадрата. Возвращает значение периметра квадрата, вычисленное по формуле P = 4 * a.
+Пример вызова:
+```
+import square
+
+a = 1
+perimeter = square.perimeter(a)
+print(perimeter)  # Вывод: 4
+```
+
 # Changing history
 - ## 8ba9aeb3cea847b63a91ac378a2a6db758682460 - Circle and square added.
 - ## d078c8d9ee6155f3cb0e577d28d337b791de28e2 - Docs added.
