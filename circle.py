@@ -6,5 +6,5 @@ def area(r):
 
 
 def perimeter(r):
-    return 2 * math.pi * r
+    return 2 * math.pi
 
