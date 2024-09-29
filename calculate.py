@@ -12,6 +12,7 @@ def calc(fig, func, size):
 
 	result = eval(f'{fig}.{func}(*{size})')
 	print(f'{func} of {fig} is {result}')
+//Функция принимает значения fig (фигура), func (функция: периметр или площадь), size (размер фигуры), возвращает выполненную func для фигуры
 
 if __name__ == "__main__":
 	func = ''
