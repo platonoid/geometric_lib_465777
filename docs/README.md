@@ -96,4 +96,13 @@ def perimeter(a, b, c):
 ```
 
 # История коммитов
-+ **
++ **8ba9aeb3cea847b63a91ac378a2a6db758682460** - L-03: Circle and square added
++ **d078c8d9ee6155f3cb0e577d28d337b791de28e2** - L-03: Docs added
++ **d080c7888b81955bad2ed78d58ad910526b5132a** - L-04: Triangle added
++ **51c40ebfd0e0b65f52fe5e54740cbb038e492db3** - L-04: Doc updated for triangle
++ **d76db2ac7f69cc920ae2e6f669fb0671a7fa7d71** - L-04: Add calculate.py
++ **b5b0fae727ca72c317c383b39c0af73d6adcd81c** - L-04: Update docs for calculate.py
++ **3958039e9bb70547d5f2a56dd6b8f956a7d84c1b** - add new file rectangle.py with function finding area and perimeter of the rectangle
++ **74969c174e9d103596917d5499cb5cb3751c655d** - add new file triangle.py with function finding area and perimeter of the triangle, fix function finding perimeter of the rectangle in rectangle.py
++ **7d5c88f4b779c1cfecc3a49e288e7de65ddf4048** - fix function finding area of the triangle
++ **b29ffdc43ca006411848c389445ebac1eb95c92b** - add local documentation in every function
