@@ -1,0 +1,29 @@
+[33mcommit ba7cfbd06f89bbf22aba3b952cfad269e92cace2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mnew_features_397214[m[33m)[m
+Author: Your Name <you@example.com>
+Date:   Wed Oct 2 18:02:15 2024 +0300
+
+    Добавлен файл triangle.py
+
+[33mcommit fd5a62c47f39747177023be959b8690fabdf4650[m
+Author: Your Name <you@example.com>
+Date:   Wed Oct 2 17:56:39 2024 +0300
+
+    Добавлен файл rectangle.py
+
+[33mcommit 5d34ff1a290162b05fceffafd4b7788c3a5b984d[m
+Author: Your Name <you@example.com>
+Date:   Thu Sep 19 10:25:19 2024 +0300
+
+    Добавлен файл
+
+[33mcommit d078c8d9ee6155f3cb0e577d28d337b791de28e2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:55:29 2021 +0300
+
+    L-03: Docs added
+
+[33mcommit 8ba9aeb3cea847b63a91ac378a2a6db758682460[m
+Author: smartiqa <info@smartiqa.ru>
+Date:   Thu Mar 4 14:54:08 2021 +0300
+
+    L-03: Circle and square added
