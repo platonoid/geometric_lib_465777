@@ -1,21 +1,99 @@
+# Аннотация к проекту
+В этом проекте на языке **python** реализованы функции для вычисления периметра и площади разных фигур, а именно: окружности, прямоугольника, квадрата и треугольника.
 
-# How to use calculator:
-1. Run `python calculate.py`
-2. Enter the figure name. Available are Circle, Square.
-3. Enter the function: Area or Perimeter.
-4. Enter figure sizes. Radius for circle, one side for square.
-5. Get the answer!
+# Описание работы функций
+## 1. Окружность (circle.py)
+### Площадь
+#### Аргументы
+```
+r (int) - радиус окружности
+```
+#### Реализация
+```python
+def area(r):
+    return math.pi * r * r # здесь math - это стандартная библиотека python
+```
+### Периметр
+#### Аргументы
+```
+r (int) - радиус окружности
+```
+#### Реализация
+```python
+def perimeter(r):
+    return 2 * math.pi * r # здесь math - это стандартная библиотека python
+```
 
-# Math formulas
-## Area
-- Circle: `S = πR²`
-- Rectangle: `S = ab`
-- Square: `S = a²`
-- Triangle: `S = sqrt(p * (p-a) * (p-b) * (p-c))` where p is semiperimeter
+## 2. Прямоугольник (rectangle.py)
+### Площадь
+#### Аргументы
+```
+a (int): длина первой стороны
+b (int): длина второй стороны
+```
+#### Реализация
+```python
+def area(a, b): 
+    return a * b 
+```
+### Периметр
+#### Аргументы
+```
+a (int): длина первой стороны
+b (int): длина второй стороны
+```
+#### Реализация
+```python
+def perimeter(a, b): 
+    return (a + b) * 2
+```
 
-## Perimeter
-- Circle: `P = 2πR`
-- Rectangle: `P = 2a + 2b`
-- Square: `P = 4a`
-- Triangle: `P = a + b + c`
+## 3. Квадрат (square.py)
+### Площадь
+#### Аргументы
+```
+a (int): длина стороны квадрата
+```
+#### Реализация
+```python
+def area(a): 
+    return a * a
+```
+### Периметр
+#### Аргументы
+```
+a (int): длина стороны квадрата
+```
+#### Реализация
+```python
+def perimeter(a): 
+    return a * 4
+```
 
+## 4. Треугольник (triangle.py)
+### Площадь
+#### Аргументы
+```
+a (int): длина основания
+h (int): высота, проведённая к основанию
+```
+#### Реализация
+```python
+def area(a, h): 
+    return a * h / 2 
+```
+### Периметр
+#### Аргументы
+```
+a (int): длина первой стороны
+b (int): длина второй стороны
+c (int): длина третьей стороны
+```
+#### Реализация
+```python
+def perimeter(a, b, c): 
+	return a + b + c
+```
+
+# История коммитов
++ **
