@@ -1,10 +1,27 @@
 import math
 
 
-def area(r):
-    return math.pi * r * r
+def area(r): 
+    '''
+    Возращает площадь круга.
+    
+        Параметры:
+            r (int) : радиус круга
+
+        Возращаемое значение: 
+            math.pi * r * r: Площадь круга
+    '''
+    return math.pi * r * r 
 
 
-def perimeter(r):
+def perimeter(r): 
+    '''
+    Возвращает периметр круга.
+        Параметры:
+            r (int): радиус круга
+        
+        Возращаемое значение: 
+            2 * math.pi * r: периметр круга
+    '''
     return 2 * math.pi * r
 
