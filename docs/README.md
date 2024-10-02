@@ -12,8 +12,8 @@
 - Triangle: P = a + b + c
 
 
-# How the program works
-The program includes 4 files: [circle.py](/circle.py), [rectangle.py](/rectangle.py), [square.py](/square.py) and [triangle.py](/triangle.py). Each of them, when entering a parameter of the corresponding shape (side length or radius), calculates and outputs the area and perimeter of this shape using mathematical formulas.
+# How the programs works
+The project includes 4 files: [circle.py](/circle.py), [rectangle.py](/rectangle.py), [square.py](/square.py) and [triangle.py](/triangle.py). Each of them, when entering a parameter of the corresponding shape (side length or radius), calculates and outputs the area and perimeter of this shape using mathematical formulas.
 
 > *All further formulas used to calculate the area and perimeter can be found in ***Math formulas***.*
 
