@@ -104,3 +104,16 @@ def perimeter(a, b):
 
 # История изменения проекта с хэшами коммитов
 
+- commit 1d8fd7a361736bb80fb2616bc68cf45e245d0df7
+Author: Reenes <JohnnysDorneys@gmail.com>
+Date: Wed Oct 2 21:01:30 2024 +0300
+
+    Documentation was done
+
+- commit ffa982fe3aedcd5c16ee81c91d47938ba61649f2
+Author: Reenes <JohnnysDorneys@gmail.com>
+Date: Wed Oct 2 19:42:31 2024 +0300
+
+    Comments were added to file
+
+This is end for now
