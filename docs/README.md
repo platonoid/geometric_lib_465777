@@ -18,7 +18,7 @@ The program includes 4 files: [circle.py](/circle.py), [rectangle.py](/rectangle
 > *All further formulas used to calculate the area and perimeter can be found in ***Math formulas***.*
 
 ## About ***[circle.py](/circle.py)***
-```ruby
+```python
 import math
 
 
@@ -49,7 +49,7 @@ Area: 50.26548245743669
 Perimeter: 25.132741228718345
 ```
 ## About ***[rectangle.py](/rectangle.py)***
-```ruby
+```python
 def area(a, b): 
     return a * b 
 '''According to the given lengths of the sides of the rectangle outputs its area.
@@ -79,7 +79,7 @@ Perimeter: 26
 ```
 ## About ***[square.py](/square.py)***
 > *Note that a **square** is a special case of a **rectangle**, that is, to calculate the area and perimeter of a **square**, you can use and **rectangle.py** (a and b will be equal)*
-```ruby
+```python
 def area(a):
     return a * a
 
@@ -105,7 +105,7 @@ Area: 49
 Perimeter: 28
 ```
 ## About ***[triangle.py](/triangle.py)***
-```ruby
+```python
 def area(a, h): 
     return a * h / 2 
 '''According to the given lengths of the sides of the triangle outputs its area.
