@@ -11,7 +11,6 @@
 - Square: P = 4a
 - Triangle: P = a + b + c
 
-> ***Поскольку ветка с программами rectangle и triangle была удалена, то я восстановил эту ветку (и, соответственно, коммиты в ней) с помощью*** ```git checkout -b <имя удалённой ветки> <хэш удаления>```
 
 # How the program works
 The program includes 4 files: [circle.py](/circle.py), [rectangle.py](/rectangle.py), [square.py](/square.py) and [triangle.py](/triangle.py). Each of them, when entering a parameter of the corresponding shape (side length or radius), calculates and outputs the area and perimeter of this shape using mathematical formulas.
