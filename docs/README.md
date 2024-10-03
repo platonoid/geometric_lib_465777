@@ -78,7 +78,7 @@ def perimeter(a, b):
 > Example: perimeter(3, 5) -> 16 
 
 # Changelog
-[Fixed triangle.py](https://github.com/hrennnn/geometric_lib/commit/2745347fd0ed2e0a2434072e225ef5f9c8308ecc)
-[Added rectangle.py](https://github.com/hrennnn/geometric_lib/commit/36f3bd5b8ddd718c9ea7cac8d939eaf338ba5c5a)
-[L-03: Docs added](https://github.com/hrennnn/geometric_lib/commit/d078c8d9ee6155f3cb0e577d28d337b791de28e2)
-[L-03: Circle and square added](https://github.com/hrennnn/geometric_lib/commit/8ba9aeb3cea847b63a91ac378a2a6db758682460)
+- [Fixed triangle.py](https://github.com/hrennnn/geometric_lib/commit/2745347fd0ed2e0a2434072e225ef5f9c8308ecc)
+- [Added rectangle.py](https://github.com/hrennnn/geometric_lib/commit/36f3bd5b8ddd718c9ea7cac8d939eaf338ba5c5a)
+- [L-03: Docs added](https://github.com/hrennnn/geometric_lib/commit/d078c8d9ee6155f3cb0e577d28d337b791de28e2)
+- [L-03: Circle and square added](https://github.com/hrennnn/geometric_lib/commit/8ba9aeb3cea847b63a91ac378a2a6db758682460)
