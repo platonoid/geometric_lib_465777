@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5b0fae727ca72c317c383b39c0af73d6adcd81c
 # How to use calculator:
 1. Run `python calculate.py`
 2. Enter the figure name. Available are Circle, Square.
@@ -18,6 +22,7 @@
 - Square: `P = 4a`
 - Triangle: `P = a + b + c`
 
+<<<<<<< HEAD
 # Общее описание решения
 
 Библиотека создана для автоматизации вычисления площади и периметра таких геометрических фигур, как *круг*, *квадрат* и *треугольник*.
@@ -118,3 +123,5 @@ if __name__ == "__main__":
 4. 51c40eb L-04: Doc updated for triangle
 5. d76db2a L-04: Add calculate.py
 ```
+=======
+>>>>>>> b5b0fae727ca72c317c383b39c0af73d6adcd81c
