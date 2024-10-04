@@ -198,3 +198,10 @@ print(result)  # Вывод: 9.0
 ```
 
 ---
+
+### Хэши последних трёх коммитов
+e58fdd8 add file
+
+d078c8d (**origin/main**, **origin/HEAD**, **isrpo1/main**, **main**) L-03: Docs added
+
+8ba9aeb L-03: Circle and square added
