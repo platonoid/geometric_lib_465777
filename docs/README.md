@@ -82,8 +82,10 @@ Calculates the perimeter of a square given its side length.
 - (float): The perimeter of the square.
 
 **Example**:
-commit b693b6ffaa92fdddf8e3519eefe8500a6fec1beb (HEAD -> documentation_dev)
-commit d078c8d9ee6155f3cb0e577d28d337b791de28e2 (origin/main, origin/HEAD, main, develop)
+commit 83484ccbb595d4af9041bac293a9db8e6cf0316a (HEAD -> main)
+commit d078c8d9ee6155f3cb0e577d28d337b791de28e2 (origin/main, origin/HEAD, documentation_dev/main, develop)
 commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
-commit d078c8d9ee6155f3cb0e577d28d337b791de28e2 (HEAD -> main, origin/main, origin/HEAD, develop)
+commit 83484ccbb595d4af9041bac293a9db8e6cf0316a (HEAD -> main)
+commit d078c8d9ee6155f3cb0e577d28d337b791de28e2 (origin/main, origin/HEAD, documentation_dev/main, develop)
 commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
+
