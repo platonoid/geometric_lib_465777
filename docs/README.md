@@ -66,5 +66,6 @@
 
 # История изменения проекта с хешами комитов
 
+ 0fb882f (HEAD -> changes) Добавлена документация в файл README.md , добавлена документация в исходные файлы circle.py, square.py,rectangle.py,calculate.py
 
 
